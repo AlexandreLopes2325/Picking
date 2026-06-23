@@ -11,8 +11,6 @@ https://github.com/AlexandreLopes2325/Picking
 
 
 
-(Substitua Picking pelo nome real do repositório. O link é fixo: quem salvar uma vez sempre verá a versão mais recente.)
-
 ✨ Funcionalidades
 
 
