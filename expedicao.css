@@ -131,6 +131,7 @@ section{margin-top:44px}
 
 /* ---------- Cards de passo ---------- */
 .step{
+  scroll-margin-top:16px;
   background:var(--paper);
   border:2px solid var(--ink);
   border-radius:6px;
@@ -382,3 +383,49 @@ section{scroll-margin-top:16px}
   .btn-row{flex-direction:column;gap:6px}
   .btn-chip{min-width:0;align-self:flex-start}
 }
+
+/* ---------- Botões da barra (referência) ---------- */
+.toolbar-ref{
+  background:var(--paper);
+  border:3px solid var(--ink);
+  border-radius:8px;
+  padding:22px 24px;
+  box-shadow:4px 4px 0 rgba(28,26,22,.12);
+}
+.toolbar-ref h2{
+  font-family:'Archivo Black',sans-serif;
+  font-size:clamp(20px,3.5vw,26px);
+  text-transform:uppercase;margin-bottom:6px;
+}
+.toolbar-ref .tr-sub{
+  font-size:14.5px;font-weight:500;color:#4a463e;
+  margin-bottom:14px;max-width:680px;
+}
+
+/* ---------- Assinatura / ciência (Google Forms) ---------- */
+.ack{
+  margin-top:44px;
+  background:var(--ink);
+  border-radius:8px;
+  padding:30px 26px;
+  color:var(--paper);
+  text-align:center;
+}
+.ack h2{
+  font-family:'Archivo Black',sans-serif;
+  font-size:clamp(18px,3vw,24px);
+  text-transform:uppercase;margin-bottom:10px;
+}
+.ack p{font-size:15px;color:#d9d4c8;max-width:560px;margin:0 auto 20px}
+.ack-btn{
+  display:inline-block;
+  font-family:'Barlow Condensed',sans-serif;
+  font-weight:700;font-size:20px;text-transform:uppercase;letter-spacing:1px;
+  background:var(--amarelo);color:var(--ink);
+  text-decoration:none;
+  padding:14px 34px;border-radius:6px;
+  border:2px solid var(--ink);
+  box-shadow:4px 4px 0 rgba(0,0,0,.35);
+  transition:transform .08s,box-shadow .08s;
+}
+.ack-btn:hover{transform:translate(2px,2px);box-shadow:2px 2px 0 rgba(0,0,0,.35)}
