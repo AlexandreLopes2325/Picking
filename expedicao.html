@@ -35,17 +35,16 @@
   <nav class="toc">
     <a href="#sistema">0 · Sistema</a>
     <a href="#equipe">1 · Equipe</a>
-    <a href="#critica">Zona Crítica</a>
     <a href="#passo">2 · Passo a passo</a>
     <a href="#carregar-etiquetas">2.5 · Carregar Etiquetas</a>
     <a href="#botoes-barra">Botões da Barra</a>
-    <a href="#fim">3 · Fim do dia</a>
+    <a href="#embalar">3 · Embalar</a>
+    <a href="#critica">Zona Crítica</a>
+    <a href="#fim">4 · Fim do dia</a>
     <a href="#nunca">Nunca Fazer</a>
-    <a href="#problemas">4 · Problemas</a>
-    <a href="#mercado-livre">5 · Mercado Livre</a>
-    <!-- próximos marketplaces entram aqui, depois do 5 -->
-    <!-- telas adicionadas: 2.1 login · 2.2 aba marketplace · 2.3 picking · 2.4 separação de pedidos · 2.5 carregar etiquetas · 2.6 buscar pedido · 2.7 abrir pedido (duplo clique) · 2.8 bipar etiqueta · 2.9 finalizado · 5.1 ML link vazio · 5.2 ML troca de etiqueta · barra de ferramentas (visão geral) — FLUXO GERAL COMPLETO -->
-  </nav>
+    <a href="#problemas">5 · Problemas</a>
+    <a href="#mercado-livre">6 · Mercado Livre</a>
+   </nav>
 
   <!-- FLUXO RESUMIDO -->
   <div class="flow">
@@ -86,7 +85,7 @@
     <div class="sec-head">
       <div class="sec-num">1</div>
       <div>
-        <h2>Separação, picking e embalagem</h2>
+        <h2>Separação</h2>
         <p class="who-line">Quem faz: Equipe</p>
       </div>
     </div>
@@ -113,105 +112,7 @@
       </div>
     </div>
 
-    <div class="step">
-      <div class="step-top"><div class="step-n">1.3</div><h3>Bipar no sistema (picking)</h3></div>
-      <div class="step-body">
-        <ul>
-          <li>Na mesa, abrir o NetVarejo e entrar na <b>área do Picking</b>, com seu login e senha — isso é individual.</li>
-          <li>Digitar/buscar o <b>número do pedido</b> que está na folha e abrir o pedido.</li>
-          <li>Pegar o leitor e <b>bipar o código de barras da caixa do produto</b>. Esperar o sistema confirmar.</li>
-          <li><b>Sistema confirmou (deu OK)?</b> Ele vai imprimir <b>sozinho</b> a DANFE e a etiqueta de envio daquele pedido. Pegar as duas na impressora e deixar junto do produto.</li>
-          <li><b>Sistema recusou o bip?</b> Significa que o produto bipado não bate com o pedido. Primeiro confere se você pegou a caixa certa. Pegou certo e mesmo assim recusou? <b>Para tudo e chama o Responsável</b> — pode ser erro de cadastro do código de barras ou etiqueta colada errada, e isso precisa ser corrigido, não contornado.</li>
-        </ul>
-        <div class="note stop">Se o bip recusar, NUNCA tente "dar um jeito" de finalizar o pedido por fora. O sistema recusando é ele te protegendo de mandar produto errado.</div>
-        <div class="note warn">Pedido com mais de um produto? Bipar <b>todos os itens</b>, um por um. Só termina quando o sistema confirmar o pedido completo.</div>
-        <div class="note tip">As telas dessa parte (abrir o Picking, buscar o pedido e bipar) estão no <b>Passo a passo do Picking</b> (seção 2).</div>
-      </div>
-    </div>
-
-    <div class="step">
-      <div class="step-top"><div class="step-n">1.4</div><h3>Etiqueta e DANFE: um pedido por vez</h3></div>
-      <div class="step-body">
-        <ul>
-          <li>Assim que a etiqueta e a DANFE saírem da impressora, <b>juntar com o produto daquele pedido imediatamente</b>.</li>
-          <li><b>Conferir se o QR Code e o código de barras saíram perfeitos</b> antes de colar — sem falhas, listras, borrões ou partes apagadas/cortadas. Se o código sair falhado, <b>a transportadora não consegue bipar</b> e o pacote fica parado, é recusado ou volta pra cá. Saiu ruim? <b>Reimprime</b> e rasga a etiqueta defeituosa na hora, pra ninguém colar por engano.</li>
-          <li>Regra de ouro: <b>nunca ter etiqueta de dois pedidos diferentes soltas na bancada ao mesmo tempo</b>. Etiqueta trocada = cliente A recebe o pedido do cliente B = duas devoluções, dois fretes, dois clientes bravos.</li>
-          <li>Só depois de fechar (embalar) um pedido é que se bipa o próximo.</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="step">
-      <div class="step-top"><div class="step-n">1.5</div><h3>Conferência física (OBRIGATÓRIA)</h3></div>
-      <div class="step-body">
-        <ul>
-          <li>Fazer o checklist da <b>ZONA CRÍTICA</b> logo abaixo. Em <b>todos</b> os pedidos, sem exceção, mesmo com o bip aprovado.</li>
-        </ul>
-        <div class="note tip">O bip confere a <b>caixa</b>. Ele não enxerga o que tem <b>dentro</b> dela. Quem enxerga é você.</div>
-      </div>
-    </div>
-
-    <!-- ZONA CRÍTICA -->
-    <div id="critica" class="critica-block">
-    <div class="critical">
-      <h2>🔍 Zona crítica — conferir antes de embalar</h2>
-      <p class="why">O sistema garante que a caixa é a do pedido. Esses pontos, só o olho humano pega. É aqui que a gente evita devolução, reclamação e nota baixa no marketplace.</p>
-      <div class="check-grid">
-        <div class="check">
-          <span class="box"></span><h4>Abrir a caixa</h4>
-          <p>Sempre. Toda caixa, todo pedido. Não existe "essa não precisa".</p>
-        </div>
-        <div class="check">
-          <span class="box"></span><h4>Etiqueta</h4>
-          <p>Verificar se a etiqueta colada na caixa é o mesmo produto/referência que está dentro da caixa.</p>
-        </div>
-        <div class="check">
-          <span class="box"></span><h4>Par correto</h4>
-          <p>Tirar os dois pés. Um esquerdo + um direito, mesmo modelo, mesma cor, mesmo tamanho nos dois.</p>
-        </div>
-        <div class="check">
-          <span class="box"></span><h4>Tamanho confere</h4>
-          <p>O número no solado/palmilha bate com o da etiqueta da caixa e com o do pedido na tela.</p>
-        </div>
-        <div class="check">
-          <span class="box"></span><h4>Sem avaria</h4>
-          <p>Olhar cola escapando, costura solta, mancha, deformação, e o estado da própria caixa.</p>
-        </div>
-        <div class="check">
-          <span class="box"></span><h4>Seda e cartão de obrigado</h4>
-          <p>Sempre passar a seda em torno do calçado e colocar o cartão de obrigado com a frente para cima, para que, quando o cliente abrir a caixa, ele veja o cartão.</p>
-        </div>
-      </div>
-      <p style="font-size:14.5px;color:#d9d4c8;position:relative;z-index:1;padding-bottom:8px">Achou avaria ou par errado? <b style="color:var(--amarelo)">Não embala.</b> Separa o produto, chama o Líder pra trocar o item, e a peça com defeito vai pro lugar de avariados — nunca de volta pra prateleira como se nada tivesse acontecido.</p>
-    </div>
-    </div>
-
-    <div class="step">
-      <div class="step-top"><div class="step-n">1.6</div><h3>Embalar</h3></div>
-      <div class="step-body">
-        <ul>
-          <li>Embalar o produto com o material padrão do canal — <b>NUNCA esquecer de colocar o cartão de obrigado</b>, e o brinde promocional <b>quando tiver</b>.</li>
-          <li>Colar a <b>etiqueta de envio</b> por fora, reta, sem dobra em cima do QRcode/código de barras (código e QRcode dobrados não bipam na transportadora).</li>
-          <li>Colocar a <b>DANFE</b> onde o canal exige (dentro/fora, conforme o padrão de cada marketplace).</li>
-          <li>Antes de fechar, bater o olho uma última vez: <b>a etiqueta colada é desse produto mesmo?</b></li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="step">
-      <div class="step-top"><div class="step-n">1.7</div><h3>Saco e despacho</h3></div>
-      <div class="step-body">
-        <ul>
-          <li>Colocar o pedido embalado no <b>saco do canal correspondente</b>. Pedido do Mercado Livre no saco do Mercado Livre, da Shopee no da Shopee, do Mercado Livre Flex no do Mercado Livre Flex — nunca misturar.</li>
-          <li>Terminou todos os pedidos da folha? Riscar/marcar a folha como concluída, assinar, e arquivar na pasta e pegar a próxima.</li>
-          <li>Quando todos os pedidos do canal estiverem embalados, fechar o saco e deixar no ponto do motorista.</li>
-          <li>Sobrou produto na mesa sem pedido (pedido cancelado ou pendente)? <b>Devolver pra prateleira no mesmo dia</b> e avisar o Líder ou Responsável pra garantir que o estoque do sistema está certo.</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <!-- PASSO A PASSO DO PICKING (TELAS) -->
+<!-- PASSO A PASSO DO PICKING (TELAS) -->
   <section class="sec-eqp" id="passo">
     <div class="sec-head">
       <div class="sec-num">2</div>
@@ -277,7 +178,7 @@
       <div class="step-body">
         <img class="shot shot-wide" src="telas-picking/carregar-etiquetas.jpg" alt="Tela Pedidos para Picking com o botão Carregar Etiquetas destacado na barra de ferramentas, em cima da coluna Link Etiqueta à direita">
         <ul>
-          <li><b>Antes de qualquer coisa</b>, assim que a tela <b>Pedidos para Picking</b> abrir, clicar no botão <b>Carregar Etiquetas</b> — fica na barra de ferramentas do topo, é o quarto ícone (seta apontando para baixo).</li>
+          <li><b>Antes de qualquer coisa</b>, assim que a tela <b>Pedidos para Picking</b> abrir, clicar no botão <b>Carregar Etiquetas</b> — fica na barra de ferramentas do topo, é o quarto ícone.</li>
           <li>O sistema puxa <b>automaticamente</b> o link da etiqueta de envio de cada pedido da lista. Esses links aparecem na coluna <b>Link Etiqueta</b>, à direita.</li>
           <li>Só depois desse carregamento é que se parte pro próximo passo (buscar o pedido pelo número).</li>
         </ul>
@@ -363,10 +264,103 @@
     </div>
   </section>
 
+   <section class="sec-eqp" id="embalar">
+    <div class="sec-head">
+      <div class="sec-num">3</div>
+      <div>
+        <h2>Embalar</h2>
+        <p class="who-line">Embalar e conferir os produtos</p>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-top"><div class="step-n">3</div><h3>Etiqueta e DANFE: um pedido por vez</h3></div>
+      <div class="step-body">
+        <ul>
+          <li>Assim que a etiqueta e a DANFE saírem da impressora, <b>juntar com o produto daquele pedido imediatamente</b>.</li>
+          <li><b>Conferir se o QR Code e o código de barras saíram perfeitos</b> antes de colar — sem falhas, listras, borrões ou partes apagadas/cortadas. Se o código sair falhado, <b>a transportadora não consegue bipar</b> e o pacote fica parado, é recusado ou volta pra cá. Saiu ruim? <b>Reimprime</b> e rasga a etiqueta defeituosa na hora, pra ninguém colar por engano.</li>
+          <li>Regra de ouro: <b>nunca ter etiqueta de dois pedidos diferentes soltas na bancada ao mesmo tempo</b>. Etiqueta trocada = cliente A recebe o pedido do cliente B = duas devoluções, dois fretes, dois clientes bravos.</li>
+          <li>Só depois de fechar (embalar) um pedido é que se bipa o próximo.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+    <div class="step">
+      <div class="step-top"><div class="step-n">3.1</div><h3>Conferência física (OBRIGATÓRIA)</h3></div>
+      <div class="step-body">
+        <ul>
+          <li>Fazer o checklist da <b>ZONA CRÍTICA</b> logo abaixo. Em <b>todos</b> os pedidos, sem exceção, mesmo com o bip aprovado.</li>
+        </ul>
+        <div class="note tip">O bip confere a <b>caixa</b>. Ele não enxerga o que tem <b>dentro</b> dela. Quem enxerga é você.</div>
+      </div>
+    </div>
+
+    <!-- ZONA CRÍTICA -->
+    <div id="critica" class="critica-block">
+    <div class="critical">
+      <h2>🔍 Zona crítica — conferir antes de embalar</h2>
+      <p class="why">O sistema garante que a caixa é a do pedido. Esses pontos, só o olho humano pega. É aqui que a gente evita devolução, reclamação e nota baixa no marketplace.</p>
+      <div class="check-grid">
+        <div class="check">
+          <span class="box"></span><h4>Abrir a caixa</h4>
+          <p>Sempre. Toda caixa, todo pedido. Não existe "essa não precisa".</p>
+        </div>
+        <div class="check">
+          <span class="box"></span><h4>Etiqueta</h4>
+          <p>Verificar se a etiqueta colada na caixa é o mesmo produto/referência que está dentro da caixa.</p>
+        </div>
+        <div class="check">
+          <span class="box"></span><h4>Par correto</h4>
+          <p>Tirar os dois pés. Um esquerdo + um direito, mesmo modelo, mesma cor, mesmo tamanho nos dois.</p>
+        </div>
+        <div class="check">
+          <span class="box"></span><h4>Tamanho confere</h4>
+          <p>O número no solado/palmilha bate com o da etiqueta da caixa e com o do pedido na tela.</p>
+        </div>
+        <div class="check">
+          <span class="box"></span><h4>Sem avaria</h4>
+          <p>Olhar cola escapando, costura solta, mancha, deformação, e o estado da própria caixa.</p>
+        </div>
+        <div class="check">
+          <span class="box"></span><h4>Seda e cartão de obrigado</h4>
+          <p>Sempre passar a seda em torno do calçado e colocar o cartão de obrigado com a frente para cima, para que, quando o cliente abrir a caixa, ele veja o cartão.</p>
+        </div>
+      </div>
+      <p style="font-size:14.5px;color:#d9d4c8;position:relative;z-index:1;padding-bottom:8px">Achou avaria ou par errado? <b style="color:var(--amarelo)">Não embala.</b> Separa o produto, chama o Líder pra trocar o item, e a peça com defeito vai pro lugar de avariados — nunca de volta pra prateleira como se nada tivesse acontecido.</p>
+    </div>
+    </div>
+
+    <div class="step">
+      <div class="step-top"><div class="step-n">3.2</div><h3>Embalar</h3></div>
+      <div class="step-body">
+        <ul>
+          <li>Embalar o produto com o material padrão do canal — <b>NUNCA esquecer de colocar o cartão de obrigado</b>, e o brinde promocional <b>quando tiver</b>.</li>
+          <li>Colar a <b>etiqueta de envio</b> por fora, reta, sem dobra em cima do QRcode/código de barras (código e QRcode dobrados não bipam na transportadora).</li>
+          <li>Colocar a <b>DANFE</b> onde o canal exige (dentro/fora, conforme o padrão de cada marketplace).</li>
+          <li>Antes de fechar, bater o olho uma última vez: <b>a etiqueta colada é desse produto mesmo?</b></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-top"><div class="step-n">3.3</div><h3>Saco e despacho</h3></div>
+      <div class="step-body">
+        <ul>
+          <li>Colocar o pedido embalado no <b>saco do canal correspondente</b>. Pedido do Mercado Livre no saco do Mercado Livre, da Shopee no da Shopee, do Mercado Livre Flex no do Mercado Livre Flex — nunca misturar.</li>
+          <li>Terminou todos os pedidos da folha? Riscar/marcar a folha como concluída, assinar, e arquivar na pasta e pegar a próxima.</li>
+          <li>Quando todos os pedidos do canal estiverem embalados, fechar o saco e deixar no ponto do motorista.</li>
+          <li>Sobrou produto na mesa sem pedido (pedido cancelado ou pendente)? <b>Devolver pra prateleira no mesmo dia</b> e avisar o Líder ou Responsável pra garantir que o estoque do sistema está certo.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  
+
   <!-- ANTES DE IR EMBORA -->
   <section class="sec-fim" id="fim">
     <div class="sec-head">
-      <div class="sec-num">3</div>
+      <div class="sec-num">4</div>
       <div>
         <h2>Antes de ir embora</h2>
         <p class="who-line">Quem faz: Equipe</p>
@@ -408,7 +402,7 @@
   <!-- PROBLEMAS -->
   <section id="problemas">
     <div class="sec-head">
-      <div class="sec-num">4</div>
+      <div class="sec-num">5</div>
       <div>
         <h2>Deu problema? Olha aqui primeiro</h2>
         <p class="who-line" style="color:#6b6557">Vale pra todo mundo</p>
@@ -450,7 +444,7 @@
   <!-- EXCLUSIVO MERCADO LIVRE -->
   <section class="sec-eqp" id="mercado-livre">
     <div class="sec-head">
-      <div class="sec-num">5</div>
+      <div class="sec-num">6</div>
       <div>
         <h2>Exclusivo Mercado Livre</h2>
         <p class="who-line">Quem faz: Equipe — situações que só acontecem em pedido do Mercado Livre</p>
@@ -458,7 +452,7 @@
     </div>
 
     <div class="step">
-      <div class="step-top"><div class="step-n">5.1</div><h3>Link Etiqueta vazio: passar pro Líder</h3></div>
+      <div class="step-top"><div class="step-n">6.1</div><h3>Link Etiqueta vazio: passar pro Líder</h3></div>
       <div class="step-body">
         <img class="shot shot-wide" src="telas-picking/ml-link-vazio.jpg" alt="Tela Pedidos para Picking com um pedido do Mercado Livre filtrado e a coluna Link Etiqueta vazia, destacada em vermelho">
         <ul>
@@ -471,7 +465,7 @@
     </div>
 
     <div class="step">
-      <div class="step-top"><div class="step-n">5.2</div><h3>Trocar a etiqueta (link pluggto → s3)</h3></div>
+      <div class="step-top"><div class="step-n">6.2</div><h3>Trocar a etiqueta (link pluggto → s3)</h3></div>
       <div class="step-body">
         <ul>
           <li>Em alguns pedidos, o Mercado Livre manda a etiqueta com a <b>DANFE + declaração de conteúdo</b> junto — e nós <b>não usamos</b> essa declaração. Nesses casos é preciso <b>trocar a etiqueta</b> antes de seguir.</li>
